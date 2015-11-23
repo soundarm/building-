@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+  char n;
+printf("\n enter the alphabet");
+  scanf("%c",&n);
+  if(n==65&&90||97&&122)
+    printf("\n the given thing is alphabet");
+ else
+    printf("\n the given thing is not alphabet");
+	return 0;
+}
